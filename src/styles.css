@@ -1,0 +1,61 @@
+/* Add your custom styles here */
+.cv-generator {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cv-generator h1 {
+    text-align: center;
+  }
+  
+  .cv-generator h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  .personal-info input,
+  .education-form input,
+  .experience-form input,
+  .skills textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .personal-info input[type="submit"],
+  .education-form button,
+  .experience-form button {
+    width: auto;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .personal-info input[type="submit"]:hover,
+  .education-form button:hover,
+  .experience-form button:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .cv-preview div {
+    margin-bottom: 20px;
+  }
+  
+  .cv-preview h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
